@@ -1,0 +1,29 @@
+.buttonForm{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.warningMessage{
+    text-align: center;
+    color: red;
+}
+
+#container{
+    display: grid;
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+}
+.gridDiv{
+text-align: center;
+border-collapse: collapse;
+}
+
+
+@media only screen and (max-width: 980){
+    #container{
+        width: 720px;
+    }
+}
