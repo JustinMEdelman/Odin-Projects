@@ -12,7 +12,7 @@ function sizeSubmit(){
     let inputAmount = Number(document.getElementById('inputAmount').value);
     if (!inputAmount){
         gridCreate(16);
-    } else if(inputAmount < 101){
+    } else if(inputAmount <= 100){
         gridCreate(inputAmount);
     }
     else {
